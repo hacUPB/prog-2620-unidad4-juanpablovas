@@ -20,41 +20,16 @@ Deben crear un programa interactivo por consola que permita a los técnicos de m
 
 4. **Consulta de Mantenimiento:** El sistema debe recorrer los datos almacenados y mostrar un reporte en pantalla de qué componentes de qué aeronaves han superado su límite de horas y requieren mantenimiento inmediato.
 
-## Planteamiento
+## Diagrama - Almacenamiento de datos
+En la siguiente imagen se podrá visualizar el diagrama de la memoria para el almacenamiento de la aeronave y sus datos en una flota realizado en Draw.io
 
-    #Menu
+![Diagrama Memoria](../Imagenes/Memoria.drawio.png)
 
-    definir flota de aeronaves
+## Diagrama de bloques - Planteamiento
+En la siguiente imagen se podrá visualizar el diagrama del planteamiento del problema, empleando la misma convección y codigo de colores empleado en el diagrama anterior.
 
-    Flota = {
-        Aeronave = {info[], item1, item2, item3, ..., itemN}
-        .
-        .
-        .
-    }
+![Diagrama de bloques](../Imagenes/EsquemaReto.drawio.png)
 
-    Bienvenido al registro tecnico de mantenimiento
-    ¿Qué vamos a hacer el día de hoy?
-    1) registrar aeronaves
-    2) Registrar componentes
-    3) Consultar una aeronave
-
-    si se escoge la primera opción
-        Se entra en el diccionario de la flota
-        Se agrega un item al diccionario
-        Se solicita la matricula, el modelo 
-        Se solicita horas de vuelo y ciclos
-        Guardar en flota
-
-    Si se escoge la segunda opcion
-        Preguntar con otro menu que aeronave desea registro de componentes
-        Se entra en el diccionario de la aeronave
-            Pregunta: deseas añadir o modificar
-            Si es añadir: agregar al diccionario
-            Si es modificar, modificar el diccionario
-
-    Si se escoge la tercera opción
-        Se realiza una busqueda de la flota
 
 
             
